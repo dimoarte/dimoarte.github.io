@@ -64,24 +64,24 @@
             }
 
             .logo {
-                color: #636b6f;
-                padding: 0 25px;
+                color: #636b6f !important;
+                
                 font-size: 84px;
-                font-weight: 200;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
+                
+                
+                text-decoration: none !important;
+            
             }
         </style>
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
+            
                 <div class="top-right links">
                     <a href="{{ url('/login') }}">Login</a>
                     <a href="{{ url('/register') }}">Register</a>
                 </div>
-            @endif
+           
 
             <div class="content">
                 <div class="title m-b-md logo">
